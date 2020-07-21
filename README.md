@@ -1,9 +1,16 @@
 # bot_hivesweeper
 A Python Juypter notebook for automated play of the Hivesweeper game.
-The game is online at: https://iogames.space/hivesweeper-io A multiplayer hexagon based minesweeper variant.
-To use the code launch a Jupter notebook and load the code.
-In the web browser of the game choose your name then select options and choose orange as your colour.  The HSV filters have been set for this colour.  The bot will not recognise your 'team colour' if it is not orange - normally colour is assigned randomly by the game.
-Lastly run the code and start the game manually.  The bot will identify trapped and safe cells and claim them based on local logic.
+The game is online at: https://iogames.space/hivesweeper-io and is a multiplayer minesweeper variant based on a hexagon grid - the same geometry as a bee hive.
+
+To use the code launch a Jupter notebook and load the code and assets.
+
+RUNTIME REQUIREMENTS
+Team colour to be orange: the HSV filters have been set to recognise this colour as your own.
+Browser scaling set to 50%: first to allow more of the board to be seen and second the kernals in 2D convolution of the screen were captured at this scaling factor.
+
+TO USE
+In the web browser of the game scale the content to 50% and choose your name.  By default the game assigns your hive a random colour, so in the option pick orange.
+Now run the code and start the game manually.  The bot will identify trapped and safe cells and claim them based on local logic.
 
 Why I wrote this?
 I have been learning Python for a while now, initially with CodeCombat, but mostly writing utilities and as an alternative to Matlab - entirely due to the license cost.
